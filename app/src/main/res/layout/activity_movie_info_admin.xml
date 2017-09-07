@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/movie_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Movie Name" />
+
+        <EditText
+            android:id="@+id/movie_desc"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="left|top"
+            android:hint="Movie Description" />
+
+        <EditText
+            android:id="@+id/movie_cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Category" />
+
+        <EditText
+            android:id="@+id/movie_award"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Awards" />
+
+        <EditText
+            android:id="@+id/movie_director"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Director" />
+
+        <EditText
+            android:id="@+id/movie_producer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Producer" />
+
+        <EditText
+            android:id="@+id/movie_screen_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Screen Play" />
+
+        <EditText
+            android:id="@+id/movie_music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Music Director" />
+
+        <EditText
+            android:id="@+id/movie_hero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hero" />
+
+        <EditText
+            android:id="@+id/movie_heroin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Heroin" />
+
+        <EditText
+            android:id="@+id/movie_writer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Writer" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:numStars="5"
+            android:rating="2.0"
+            android:stepSize="1.0" />
+
+        <Button
+            android:id="@+id/movie_release"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Release Date" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Save" />
+    </LinearLayout>
+</ScrollView>
